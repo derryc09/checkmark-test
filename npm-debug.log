@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   './' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose publish [ './' ]
+5 silly cache add args [ './', null ]
+6 verbose cache add spec ./
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: './',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: './',
+7 silly cache add   spec: 'C:\\Users\\derry.y.cheng\\Desktop\\matDesign\\checkmark',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\derry.y.cheng\AppData\Roaming\npm-cache\@fuse\checkmark\0.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\derry.y.cheng\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle @fuse/checkmark@0.0.1~prepublish: @fuse/checkmark@0.0.1
+11 silly lifecycle @fuse/checkmark@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\derry.y.cheng\\AppData\\Roaming\\npm-cache\\@fuse\\checkmark\\0.0.1\\package.tgz',
+12 verbose tar pack   'C:\\Users\\derry.y.cheng\\Desktop\\matDesign\\checkmark' ]
+13 verbose tarball C:\Users\derry.y.cheng\AppData\Roaming\npm-cache\@fuse\checkmark\0.0.1\package.tgz
+14 verbose folder C:\Users\derry.y.cheng\Desktop\matDesign\checkmark
+15 verbose addLocalTarball adding from inside cache C:\Users\derry.y.cheng\AppData\Roaming\npm-cache\@fuse\checkmark\0.0.1\package.tgz
+16 verbose correctMkdir C:\Users\derry.y.cheng\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd @fuse/checkmark@0.0.1
+18 verbose afterAdd C:\Users\derry.y.cheng\AppData\Roaming\npm-cache\@fuse\checkmark\0.0.1\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\derry.y.cheng\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\derry.y.cheng\AppData\Roaming\npm-cache\@fuse\checkmark\0.0.1\package\package.json written
+21 silly publish { name: '@fuse/checkmark',
+21 silly publish   description: 'The FUSE Components for the web button component',
+21 silly publish   version: '0.0.1',
+21 silly publish   license: 'Apache 2.0',
+21 silly publish   keywords: [ 'checkmark', 'fuse' ],
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'ssh://git@bitbucket.corporate.t-mobile.com/~dcheng8/checkmark.git' },
+21 silly publish   dependencies: {},
+21 silly publish   gitHead: '9fe75a6b163caffb7d2d6f2948bdb7af8c10ebda',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: '@fuse/checkmark@0.0.1',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: 'ed3d82d7c49ac44aa081a5de267753ce438f843d',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @fuse/checkmark
+24 silly mapToRegistry scope (from package name) @fuse
+25 verbose mapToRegistry no registry URL found in name for scope @fuse
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry http://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@fuse/checkmark',
+28 silly mapToRegistry   scope: '@fuse',
+28 silly mapToRegistry   escapedName: '@fuse%2fcheckmark',
+28 silly mapToRegistry   name: '@fuse/checkmark',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri http://registry.npmjs.org/@fuse%2fcheckmark
+30 verbose publish registryBase http://registry.npmjs.org/
+31 silly publish uploading C:\Users\derry.y.cheng\AppData\Roaming\npm-cache\@fuse\checkmark\0.0.1\package.tgz
+32 verbose request uri http://registry.npmjs.org/@fuse%2fcheckmark
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 3:38:52 PM
+35 verbose request using bearer token for auth
+36 verbose request id f35b89b2b41ccd75
+37 http request PUT http://registry.npmjs.org/@fuse%2fcheckmark
+38 http 402 http://registry.npmjs.org/@fuse%2fcheckmark
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '49',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Mon, 23 Apr 2018 22:38:52 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-sea1037-SEA',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1524523133.601594,VS0,VE164' }
+40 verbose request invalidating C:\Users\derry.y.cheng\AppData\Roaming\npm-cache\registry.npmjs.org\_40fuse_252fcheckmark on PUT
+41 error publish Failed PUT 402
+42 verbose stack Error: You must sign up for private packages : @fuse/checkmark
+42 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+42 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+42 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+42 verbose stack     at emitOne (events.js:96:13)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+43 verbose statusCode 402
+44 verbose pkgid @fuse/checkmark
+45 verbose cwd C:\Users\derry.y.cheng\Desktop\matDesign\checkmark
+46 error Windows_NT 10.0.15063
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "./"
+48 error node v6.9.5
+49 error npm  v3.10.10
+50 error code E402
+51 error You must sign up for private packages : @fuse/checkmark
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]

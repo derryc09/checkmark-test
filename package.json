@@ -1,0 +1,17 @@
+{
+    "name": "@fuse/checkmark",
+    "description": "The FUSE Components for the web button component",
+    "version": "0.0.1",
+    "license": "Apache 2.0",
+    "keywords": [
+        "checkmark",
+        "fuse"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@bitbucket.corporate.t-mobile.com/~dcheng8/checkmark.git"
+    },
+    "dependencies": {
+
+    }
+}
